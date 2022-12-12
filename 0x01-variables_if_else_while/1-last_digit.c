@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * main - main block
+/**
+ * main -main block
  * Description: Program to display last digit of random numbers
  * Return: 0
  */
