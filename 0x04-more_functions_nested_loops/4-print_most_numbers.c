@@ -4,6 +4,7 @@
  * print_most_numbers - a function that prints the numbers, from 0 to 9
  * Return: 0-9, excluding 2 and 4
  */
+
 void print_most_numbers(void)
 {
 	int i;
@@ -15,6 +16,7 @@ void print_most_numbers(void)
 		{
 			_putchar(i + '0');
 		}
-		_putchar('\n');
 	}
+		_putchar('\n');
+	
 }
