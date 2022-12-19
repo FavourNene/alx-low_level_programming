@@ -3,8 +3,7 @@
 
 /**
  * _puts - function that prints a string, followed by a new line, to stdout.
- * @str: string input
- * Return - string
+ * @str: string inpu
  */
 
 void _puts(char *str)
@@ -13,7 +12,7 @@ void _puts(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		_putschar(str[i]);
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 
