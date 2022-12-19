@@ -11,6 +11,9 @@
 int _strlen(char *s)
 
 {
-	printf("%lu", strlen(s));
-	return (0);
+	int i;
+
+	for (i = 0; s[i] != '\0'; ++i);
+	printf("%d", i);
+		return (i);
 }
